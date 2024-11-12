@@ -17,19 +17,47 @@
 }
 
 /* headline */
-.headline_container {
-  /* position: fixed; */
+/* .headline_container {
   top: 0;
   width: 100%;
   z-index: 1050;
 }
 
 .headline {
-  /* background-color: #007bff; Bootstrap primary color */
   background-color: #ff8c00b1;
   color: white;
   text-align: center;
   padding: 0.5rem 0;
+} */
+
+/* headline container */
+.headline_container {
+  overflow: hidden; /* Hides the overflow to create the scrolling effect */
+  width: 100%;
+  z-index: 1050;
+  background-color: #ff8c00b1; /* Background color */
+  color: white;
+}
+
+.headline {
+  display: inline-flex; /* Inline-flex to keep items in a single row */
+  animation: scroll-horizontal 15s linear infinite;
+}
+
+.headline-text {
+  padding: 0.5rem 10rem;
+  font-size: 1rem;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Horizontal scroll animation */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
 }
 
 /* heaing */
