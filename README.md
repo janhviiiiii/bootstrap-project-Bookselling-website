@@ -19,4 +19,5 @@ This is a simple, responsive book-selling website that showcases various categor
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/book-selling-website.git
+   git clone https://github.com/janhviiiiii/book-selling-website.git
+   
