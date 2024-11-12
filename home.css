@@ -66,7 +66,7 @@
 /* carousel */
 #carouselExampleFade {
   width: 85%;
-  height: 79vh;
+  height: 75.5vh;
   /* border: 2px solid black; */
   box-shadow: 0 0 7px 5px rgba(101, 11, 4, 0.796);
   margin: auto;
@@ -74,7 +74,7 @@
 }
 
 .carousel_img {
-  height: 79vh;
+  height: 75.5vh;
   margin-bottom: 2rem;
 }
 
