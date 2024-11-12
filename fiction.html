@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome CDN -->   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+
+    <!-- External CSS -->
+    <link href="booktypes.css" rel="stylesheet" />
+    <title>HOME PAGE</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <!-- headline start -->
+      <div class="headline_container">
+        <div class="col-12 headline">BUY 3 GET EXTRA 10% OFF</div>
+      </div>
+      <!-- headline end -->
+
+      <!-- nav bar start -->
+      <nav
+        class="navbar navbar-expand-lg custom-navbar navbar-dark bg-dark navbar_div"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">
+            <!--navbar logo -->
+            <img src="img/booklogo.jpg" style="height: 6rem; width: 6rem"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#book_section"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Book
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="fiction.html">Fiction</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="nonfiction.html"
+                      >Non Fiction</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="coffeetable.html"
+                      >Coffee Table</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="hindinovel.html"
+                      >Hindi Novels</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="comicsandmanga.html"
+                      >Comics & Manga</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="childrenbook.html"
+                      >Children Books</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mystery Box
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="smallmb.html"
+                      >Small Mystery Box</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mediummb.html"
+                      >Medium Mystery Box</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="largemb.html"
+                      >Large Mystery Box</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Merchandise
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="candles.html">Candles</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="bookmarks.html">Bookmarks</a>
+                  </li>
+
+                  <!-- <li><hr class="dropdown-divider" /></li> -->
+                  <!-- <li> -->
+                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  <!-- </li> -->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="gifting.html"
+                  >Gifting</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="bookbundle.html"
+                  >Bulk</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar end -->
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+      <!-- container fluid start -->
+      <div class="container_fluid">
+        <!-- Book Section -->
+        <h1
+          class="col-12 d-flex justify-content-around mb-5 fw-bold"
+          id="type_heading"
+        >
+          <q>FICTIONAL BOOKS</q>
+        </h1>
+
+        <div class="container">
+          <!-- row start -->
+          <div class="row d-flex justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div
+                class="card mb-1 shadow d-flex flex-column bg-light"
+              >
+                <img
+                  src="https://kitabay.com/cdn/shop/files/Template_650x1000px_38.jpg?crop=center&height=947&v=1709206188&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">A Song of Ice and Fire</h5>
+                  <h6 class="price">Rs. <s>4999</s> 2499</h6>
+                  <p class="card-text text-warning">by George R.R. Martin</p>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/Untitleddesign_29.jpg?crop=center&height=947&v=1709037833&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Hunger Games</h5>
+                  <h6 class="price">Rs. <s>999</s> 699</h6>
+                  <p class="card-text text-warning">by Suzanne Collins</p>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/products/fe01008010fc36ab1d6f36b0a51e0a81.jpg?crop=center&height=933&v=1708082384&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">World Without End</h5>
+                  <h6 class="price">Rs. <s>499</s> 299</h6>
+                  <p class="card-text text-warning">by Ken Follett</p>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/Template_650x1000px_2_93442210-40e2-4247-9d4c-8d1481512362.jpg?crop=center&height=947&v=1713267635&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Twilight Series</h5>
+                  <p class="card-text text-warning">by Stephenie Meyer</p>
+                  <h6 class="price">Rs. <s>1299</s> 499</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/products/f571a71d9df1122c150fe99d892aedaf.jpg?crop=center&height=760&v=1708153981&width=500"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">A Game of Thrones</h5>
+                  <p class="card-text text-warning">by George R.R. Martin</p>
+                  <h6 class="price">Rs. <s>499</s> 299</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/Template_650x1000px_19.jpg?crop=center&height=947&v=1709120536&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Maze Runner Series</h5>
+                  <p class="card-text text-warning">by James Dasher</p>
+                  <h6 class="price">Rs. <s>2499</s> 699</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/images_7_1e9c5121-ac7f-45b1-ab85-05f62856ad5e.jpg?crop=center&height=279&v=1723533955&width=181"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Shadow of the Wind</h5>
+                  <p class="card-text text-warning">by Carlos Ruiz Zafon</p>
+                  <h6 class="price">Rs. <s>599</s> 325</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/products/b917c6c757eb69d7b2cab094570d6a3a_64cffde0-33aa-44f4-a3ec-4c82c2c7d4c7.jpg?crop=center&height=500&v=1708152898&width=326"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">A Dance with Dragons</h5>
+                  <p class="card-text text-warning">by Grorle R.R. Martin</p>
+                  <h6 class="price">Rs. <s>300</s> 200</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/e403de5160617a02ac49f5e0e7bb3197.jpg?crop=center&height=499&v=1721977165&width=331"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Psychology of Time Travel</h5>
+                  <p class="card-text text-warning">by Kate Mascarenhas</p>
+                  <h6 class="price">Rs. <s>599</s> 299</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 10 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/products/9d4ece8a5c22e59751405f849ef10f8e.jpg?crop=center&height=500&v=1702374512&width=332"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Anno-Dracula</h5>
+                  <p class="card-text text-warning">by Kim Newman</p>
+                  <h6 class="price">Rs. <s>300</s> 200</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 11 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/6c40617bfef638610ccd5cb09d6693db.jpg?crop=center&height=946&v=1721294157&width=616"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Alantis Complex</h5>
+                  <p class="card-text text-warning">by Eoin Colfer</p>
+                  <h6 class="price">Rs. <s>299</s> 236</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 12 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4 card_div">
+              <div class="card mb-1 shadow d-flex flex-column">
+                <img
+                  src="https://kitabay.com/cdn/shop/files/f35b28b1ab77801a8dba8b9dc0130d81.png?crop=center&height=528&v=1721033134&width=356"
+                  class="card-img-top scroll_img mt-1"
+                  alt="Card image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">The Kill Order Complex</h5>
+                  <p class="card-text text-warning">by James Dashner</p>
+                  <h6 class="price">Rs. <s>299</s> 199</h6>
+                  <a href="#" class="btn btn-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--row end -->
+        </div>
+        <!-- CONTAINER END -->
+         
+      </div>
+      <!-- container fluid end -->
+    </main>
+    <!-- main end -->
+
+
+
+
+    <!-- footer start -->
+    <footer class="bg-dark text-white" id="footer_section">
+      <div class="row mx-0">
+        <!-- Column 1 -->
+        <div
+          class="col-12 d-flex flex-column align-items-center col-md-6 col-lg-3 mb-3"
+        >
+          <img
+            src="img/booklogo.jpg"
+            class="mb-3"
+          />
+          <div class="icon_row mb-2">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <p>ABC, Mira Bhayander, Maharashtra, India.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-6 col-md-6 col-lg-3 mb-3">
+          <h4>Get to know us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Gift a smile</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-6 col-md-6 col-lg-3 mb-3">
+          <h4>Contact With Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <h4>Let Us Help You</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Return Centre</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+        <hr />
+        <div class="copy">
+          <p>&copy; 2024 by Janhvi, Created with Bootstrap.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

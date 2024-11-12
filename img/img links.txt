@@ -1,0 +1,110 @@
+books image 1
+https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+book image 2
+https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+book image 3
+https://images.pexels.com/photos/2228557/pexels-photo-2228557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+book image 4
+https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+book image 5  **
+https://images.pexels.com/photos/1526049/pexels-photo-1526049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+
+=======================================================================================================================================
+
+Books Section
+
+Books bundle image
+https://kitabay.com/cdn/shop/files/Copy_of_Decorate_your_home_with_Coffee_Table_Books_1.jpg?v=1727267160
+
+hindi books
+https://kitabay.com/cdn/shop/files/Copy_of_Decorate_your_home_with_Coffee_Table_Books.jpg?v=1727267160
+
+cofee table
+https://kitabay.com/cdn/shop/files/Copy_of_Decorate_your_home_with_Coffee_Table_Books_2.jpg?v=1727267160
+
+kids book
+https://kitabay.com/cdn/shop/files/Copy_of_Decorate_your_home_with_Coffee_Table_Books_3.jpg?v=1727267160
+
+
+
+===================================================================================================================
+FOOTER
+
+<!-- footer start -->
+    <footer class="bg-dark text-white" id="footer_section">
+      <div class="row mx-0">
+        <!-- Column 1 -->
+        <div
+          class="col-12 d-flex flex-column align-items-center col-md-6 col-lg-3 mb-3"
+        >
+          <a href="home.html">
+            <img
+            src="img/booklogo.jpg"
+            class="mb-3"
+          />
+          </a>
+          <div class="icon_row mb-2">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <p>ABC, Mira Bhayander, Maharashtra, India.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-6 col-md-6 col-lg-3 mb-3">
+          <h4>Get to know us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Gift a smile</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-6 col-md-6 col-lg-3 mb-3">
+          <h4>Contact With Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <h4>Let Us Help You</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">100% Purchase Protection</a></li>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Return Centre</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+
+        <hr />
+        <div class="copy">
+          <p>&copy; 2024 by Janhvi, Created with Bootstrap.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+
+    =======================================================================================================================
+
+    CDN FONT AWESOME
+
+    <!-- font awesome CDN -->   
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+   />

@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.navbar_div {
+  height: auto; /* Allow it to adapt to content height */
+  margin-top: 0;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+  height: 4rem;
+  width: auto;
+}
+
+/* headline */
+.headline_container {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+.headline {
+  /* background-color: #007bff; Bootstrap primary color */
+  background-color: #ff8c00b1;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* heaing */
+#type_heading {
+  background: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  color: white;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.5px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* card */
+.card_div{
+  width: 25rem;
+  /* height: 33rem; */
+  height: auto;
+}
+
+/* card img */
+
+.card img {
+  width: 70%;
+  height: 23rem;  
+  margin: auto;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+
+/* footer */
+
+
+footer {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.row {
+  justify-content: space-around;
+  margin: 0;
+}
+
+ul.list-unstyled {
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-unstyled li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.list-unstyled li a:hover {
+  color: #ddd;
+}
+
+img {
+  width: 10rem;
+}
+
+.icon_row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon_row i {
+  background-color: rgb(205, 106, 0);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #000; /* Ensures the footer background covers the full width */
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  padding-top: 1rem;
+}
+
+.icon_row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}

@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+
+/* headline */
+.headline_container {
+  top: 0;
+  width: 100%;
+  z-index: 1050; 
+}
+
+.headline {
+  /* background-color: #007bff; Bootstrap primary color */
+  background-color: #ff8c00b1; /* Bootstrap primary color */
+
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* nav bar */
+/* .navbar-brand img {
+  height: 5.2rem;
+  width: 8rem;
+} */
+
+/* 
+.navbar_div
+{
+  margin-top: -1rem;
+  height: 6rem;
+} */
+
+.navbar_div {
+  height: auto; 
+  margin-top: 0;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+  height: 4rem; 
+  width: auto;
+}
+
+/* .carousel_div
+{
+  margin: auto;
+  height: 82vh;
+  width: 82%;
+}
+
+.carousel_img_div {
+  display: flex;
+  justify-content: center;
+}
+.carousel_img {
+  height: 80vh;
+  width: 80%;
+} */
+
+
+/* carousel */
+#carouselExampleFade {
+  width: 85%;
+  height: 79vh;
+  /* border: 2px solid black; */
+  box-shadow: 0 0 7px 5px rgba(101, 11, 4, 0.796);
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.carousel_img {
+  height: 79vh;
+  margin-bottom: 2rem;
+}
+
+/* book section */
+.book_section_div {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.book_section_img {
+  height: 22rem;
+  width: 22rem;
+  border-radius: 1rem;
+}
+
+a button {
+  width: 15rem;
+}
+
+.view_all_a button{
+  width: 8rem;
+}
+
+.book_section_div:hover
+{
+  transform: scale(1.06);
+  /* box-shadow: 0 0 5px 5px olive; */
+  
+}
+
+
+/* scrolling card section */
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.card {
+  min-width: 14rem;
+  max-width: 14rem;
+  /* width: 13rem; */
+  margin-right: 1.5rem;
+}
+
+.lastcard
+{
+  margin-right: 0rem;
+}
+
+.scroll_img
+{
+  width: 14rem;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.card:hover
+{
+  transform: scale(1.02);
+}
+
+
+/* view all button */
+.view_all_book_btn
+{
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border: none;
+  margin: auto;
+  display: flex;
+  margin-bottom: 2rem;
+  /* margin-top: 1rem; */
+}
+
+.view_all_book_btn:hover
+{
+  transform: scale(1.1);
+}
+
+
+/* merch section */
+
+.card_candle img{
+  width: 95%;
+  margin: auto;
+}
+
+.card_bookmark img{
+  width: 95%;
+  margin: auto;
+}
+
+
+
+body{
+  overflow-x: hidden;
+}
+
+
+/* footer */
+
+
+footer {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.row {
+  justify-content: space-around;
+  margin: 0;
+}
+
+ul.list-unstyled {
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-unstyled li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.list-unstyled li a:hover {
+  color: #ddd;
+}
+
+img {
+  width: 10rem;
+}
+
+.icon_row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon_row i {
+  background-color: rgb(205, 106, 0);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #000; /* Ensures the footer background covers the full width */
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  padding-top: 1rem;
+}
+
+.icon_row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
