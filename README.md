@@ -4,17 +4,16 @@ This is a simple, responsive book-selling website that showcases various categor
 
 ## Website Features
 
-- **Product Categories**: Includes a variety of pages for different products such as book bundles, candles, bookmarks, fiction, non-fiction, children’s books, and coffee table books.
+- **Product Categories**: Includes a variety of pages for different products such as book bundles, candles, bookmarks, fiction, non-fiction, children’s books, and coffee table books and more.
 - **Responsive Design**: Optimized for different screen sizes to ensure a seamless experience on mobile, tablet, and desktop devices.
 - **User-Friendly Interface**: Simple and intuitive design for easy navigation and product browsing.
-- **Footer Links**: Quick access to important pages like About Us, Contact, and social media channels.
+- **Footer Links**: Quick access to important pages like Contact, and social media channels.
 
 ## Technologies Used
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling the website.
 - **Bootstrap 5**: For responsive design and layout.
-- **JavaScript (optional)**: For future enhancements and interactive features.
 
 ## How to Use
 
