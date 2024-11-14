@@ -14,9 +14,9 @@ This is a simple, responsive book-selling website that showcases various categor
   - And more to provide a complete book-lover's experience.
     
 - **Responsive Design**: Optimized for different screen sizes (mobile, tablet, and desktop) to provide seamless navigation and readability.
-- 
+
 - **User-Friendly Interface**: Clean and straightforward design with easy-to-navigate pages and clearly labeled categories.
-- 
+  
 - **Footer Links**: Quick access to important pages like Contact, and social media channels.
 
 ## Technologies Used
