@@ -4,18 +4,30 @@ This is a simple, responsive book-selling website that showcases various categor
 
 ## Website Features
 
-- **Product Categories**: Includes a variety of pages for different products such as book bundles, candles, bookmarks, fiction, non-fiction, children’s books, and coffee table books and more.
-- **Responsive Design**: Optimized for different screen sizes to ensure a seamless experience on mobile, tablet, and desktop devices.
-- **User-Friendly Interface**: Simple and intuitive design for easy navigation and product browsing.
+- **Product Categories**: Dedicated pages for a variety of products including:
+  - Book Bundles: Specially curated collections of books.
+  - Candles: Scented candles for a cozy reading ambiance.
+  - Bookmarks: Unique and creative bookmark sets.
+  - Fiction & Non-Fiction: Popular and classic titles across genres.
+  - Children’s Books: Books specially curated for younger readers.
+  - Coffee Table Books: Large, visually rich books for display.
+  - And more to provide a complete book-lover's experience.
+    
+- **Responsive Design**: Optimized for different screen sizes (mobile, tablet, and desktop) to provide seamless navigation and readability.
+- 
+- **User-Friendly Interface**: Clean and straightforward design with easy-to-navigate pages and clearly labeled categories.
+- 
 - **Footer Links**: Quick access to important pages like Contact, and social media channels.
 
 ## Technologies Used
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the website.
-- **Bootstrap 5**: For responsive design and layout.
+- **HTML5**: For creating structured content and building semantic layouts.
+- **CSS3**: For visual styling and enhancing user experience with animations and hover effects.
+- **Bootstrap 5**: For responsive design, grid layout, and pre-built components to ensure a cohesive and modern appearance.
 
-## How to Use
+## Getting Started
+
+To explore and use this website locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
