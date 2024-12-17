@@ -32,4 +32,16 @@ To explore and use this website locally, follow these steps:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/janhviiiiii/book-selling-website.git
+
+## Screenshots
+
+### Home Page
+![Home Page](img/Home_1)
+
+### Book Categories
+![Book Categories](screenshot2.png)
+
+### Responsive Design
+![Responsive Design](screenshot3.png)
+
    
