@@ -38,6 +38,11 @@ To explore and use this website locally, follow these steps:
 ### Home Page
 ![Home Page](img/Home_1)
 
+<div style="display: flex; gap: 10px;">
+  <img src="![Home_1](https://github.com/user-attachments/assets/13068cff-c0ae-49eb-89fe-a69c3378a6f3)" width="300" alt="Generate QR Code 1" />
+  <img src="https://github.com/user-attachments/assets/5a253d7e-72f3-4e59-8056-48e29f9e21e9" width="300" alt="Generate QR Code 2" />
+</div>
+
 ### Book Categories
 ![Book Categories](screenshot2.png)
 
