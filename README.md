@@ -36,16 +36,16 @@ To explore and use this website locally, follow these steps:
 ## Screenshots
 ### Home Page - Overview
 
-<img src="img/Home_1.png" width="500" height="400" />
-<img src="img/Home_2.png" width="500" height="400" />
-<img src="img/Home_3.png" width="500" height="400" />
-<img src="img/Home_4.png" width="500" height="400" />
-<img src="img/Home_5.png" width="500" height="400" />
-<img src="img/Home_6.png" width="500" height="400" />
-
+<img src="img/Home_1.png" width="auto" height="auto" />
+<img src="img/Home_2.png" width="auto" height="auto" />
+<img src="img/Home_3.png" width="auto" height="auto" />
+<img src="img/Home_4.png" width="auto" height="auto" />
+<img src="img/Home_5.png" width="auto" height="auto" />
+<img src="img/Home_6.png" width="auto" height="auto" />
+<br/>
 ###Few other page
-<img src="img/Mysterybox_1.png" width="500" height="400" />
-<img src="img/Gifting.jpg" width="500" height="400" />
+<img src="img/Mysterybox_1.png" width="auto" height="auto" />
+<img src="img/Gifting.jpg" width="auto" height="auto" />
 
 
    
