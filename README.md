@@ -34,19 +34,18 @@ To explore and use this website locally, follow these steps:
    git clone https://github.com/janhviiiiii/book-selling-website.git
 
 ## Screenshots
+### Home Page - Overview
 
-### Home Page
-![Home Page](img/Home_1)
+<img src="img/Home_1.png" width="500" height="400" />
+<img src="img/Home_2.png" width="500" height="400" />
+<img src="img/Home_3.png" width="500" height="400" />
+<img src="img/Home_4.png" width="500" height="400" />
+<img src="img/Home_5.png" width="500" height="400" />
+<img src="img/Home_6.png" width="500" height="400" />
 
-<div style="display: flex; gap: 10px;">
-  <img src="![Home_1](https://github.com/user-attachments/assets/13068cff-c0ae-49eb-89fe-a69c3378a6f3)" width="300" alt="Generate QR Code 1" />
-  <img src="https://github.com/user-attachments/assets/5a253d7e-72f3-4e59-8056-48e29f9e21e9" width="300" alt="Generate QR Code 2" />
-</div>
+###Few other page
+<img src="img/Mysterybox_1.png" width="500" height="400" />
+<img src="img/Gifting.jpg" width="500" height="400" />
 
-### Book Categories
-![Book Categories](screenshot2.png)
-
-### Responsive Design
-![Responsive Design](screenshot3.png)
 
    
