@@ -132,6 +132,10 @@ a button {
   width: 8rem;
 }
 
+.book_section_div{
+  transition: transform 0.3s ease-in-out; /* Smooth scaling */
+}
+
 .book_section_div:hover
 {
   transform: scale(1.06);
@@ -168,8 +172,11 @@ a button {
   border-radius: 10px;
 }
 
-.card:hover
-{
+.card {
+  transition: transform 0.3s ease-in-out; /* Smooth scaling */
+}
+
+.card:hover {
   transform: scale(1.02);
 }
 
@@ -193,7 +200,6 @@ a button {
 
 
 /* merch section */
-
 .card_candle img{
   width: 95%;
   margin: auto;
@@ -204,16 +210,12 @@ a button {
   margin: auto;
 }
 
-
-
 body{
   overflow-x: hidden;
 }
 
 
 /* footer */
-
-
 footer {
   width: 100%;
   padding: 2rem 0;
@@ -292,4 +294,17 @@ footer {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+.old_price{
+  color: rgb(137, 136, 136);
+}
+
+.button_div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating{
+  cursor: default;
 }

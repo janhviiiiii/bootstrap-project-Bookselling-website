@@ -1,0 +1,7 @@
+add grey color to old price ✅
+bold the title above that
+add location (google map) in the footer ✅
+adjust footer for small device properly ✅
+adjust card size for small device
+add review (star rating like flipkart) for each product ✅
+add transition slow duration for hover on card ✅
